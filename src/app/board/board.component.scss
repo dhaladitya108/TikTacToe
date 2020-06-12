@@ -1,0 +1,19 @@
+main {
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-gap: 0px;
+}
+
+app-square {
+  border: 1px gray solid;
+  height: 100px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
